@@ -16,7 +16,7 @@ options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--disable-gpu')
 
 #this is the path to where you downloaded the chromedriver, make sure you get the right chromedriver for your version of chrome
-DRIVER_PATH= r"C:\Users\VLECKJ\6th form python\Crest\chromedriver.exe"
+DRIVER_PATH= r"add path here"
 driver = webdriver.Chrome(service=Service(DRIVER_PATH), options=options)
 
 class UnsplashImageScraper():
